@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First Project</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	div{
+		border: 2px solid red; 
+	}
+	img{
+		border: 1px dotted lightgrey;
+	}
+	button{
+		position: fixed;
+		right: 10px;
+		top: 10px;
+	}
+	.relative{
+		position: relative;
+	}
+	img {
+		position: absolute;
+	}
+	.absolute1{
+		top: 10px;
+		left: 10px;
+		z-index: 30;
+	}
+	.absolute2{
+		top: 100px;
+		left: 100px;
+		z-index: 20;
+	}
+	.absolute3{
+		top: 200px;
+		left: 200px;
+		z-index: 10;
+	}
+
+
+	</style>
+</head>
+<body>
+	<div class="relative">
+		<img class="absolute1" src="img/cat.jpg" width="200">
+		<img class="absolute2" src="img/cat.jpg" width="200">
+		<img class="absolute3" src="img/cat.jpg" width="200">
+	</div>
+	
+				
+</body>
+</html>
